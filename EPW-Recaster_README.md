@@ -175,8 +175,8 @@ ___
   - ➥ **Example to be read as**:
     - Must have:
       - _any combination of_ `Atk. Level` **AND** `Critical Hit Rate` **AND** `Interval Between Hits`<br />**AND** `any unique stat (GoF, SB, ...) as wild-card` **OR**
-      - _any combination of_ `Reduce Physical Damage Taken` **AND** `Reduce Physical Damage Taken` **OR**
-      - _any combination of_ `Interval Between Hits` **AND** `Critical Hit Rate` **OR**
+      - _any combination of_ `Reduce Physical Damage Taken` **AND** `Reduce Physical Damage Taken`<br />**AND** `although not really applicable for this kind of stats, yet any unique stat (GoF, SB, ...) as wild-card` **OR**
+      - _any combination of_ `Interval Between Hits` **AND** `Critical Hit Rate`<br />**AND** `any unique stat (GoF, SB, ...) as wild-card` **OR**
       - [ ... ]
  - ➥ **(Auto)Roll Result Examples**:
     - ✅ **Accept** ( _meets first condition_ ):
