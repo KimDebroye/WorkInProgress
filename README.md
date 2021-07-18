@@ -1,2 +1,3 @@
 # Work In Progress
-Basically ignore everything in here if you're reading this and aren't me ;)
+_Unless communicated otherwise_, basically ignore everything in here if you're reading this and aren't me ;).
+
