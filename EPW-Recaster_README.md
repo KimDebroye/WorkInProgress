@@ -1,7 +1,7 @@
 
 # EPW Recaster
 
-![Overview](https://i.snipboard.io/NH7EZg.jpg)
+![Overview](https://i.snipboard.io/i0SQku.jpg)
 
 ## Download
 **[ [ Latest & Older Versions ](https://github.com/KimDebroye/EPW-Recaster/releases) ]**
@@ -33,7 +33,7 @@ EPW Recaster is a tool that
 
 ## Sections
 
-![Sections](https://i.snipboard.io/cZEa03.jpg)
+![Sections](https://i.snipboard.io/NvjpMd.jpg)
 
 ### General Notes
 - Once a preview or an auto-roll is started, the main form will be programmatically minimized and restored after.<br />( *The main form is mainly used for setup purposes only.* )
