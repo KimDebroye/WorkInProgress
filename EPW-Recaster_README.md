@@ -60,8 +60,6 @@ ___
   - the capture region to fit the text to be captured.
     - **The fitting does not need to be pixel perfect in order for the Optical Character Recognition to work properly.**
       - Although this can ( *usually* ) be safely ignored, try to avoid any additional UI elements contained in the captured region.<br />Reason: Depending on the fitting, parts of the in-game UI could be detected as a character<br />( *f.e. the in-game scroll up icon may be detected as capital 'A'* ).
-    - **[ ! ] Without any actual game file alterations ( *`configs.pck`* ),<br />it is not recommended to use EPW Recaster<br />to look for stats on weapons that have unique (*long descriptive*) stats**,<br />unless it's (*one of those*) unique stats being targeted in a roll.
-      - *In other words*, avoid looking for stats on weapons having<br />`Purify Spell`, `God of Frenzy`, `Square Formation`, `Soul Shatter`, `Spirit Blackhole`, ...<br />as a possible stat in order not to miss a stat needing an in-game scroll<br />(*unless the previously mentioned stats are being specifically targeted*).
 
 ___
 
@@ -72,8 +70,12 @@ ___
 - ( *A visible preview of* )
 - The region setting the boundaries used for Optical Character Recognition.
 - Depending in which mode the process will be started, the capture region will either be located:
-	- **Preview Mode : full width of see-through region** and a little above the in-game buttons.
-	- **Roll Mode : right half of see-through region** and a little above the in-game buttons.
+  - **Preview Mode : full width of see-through region** and a little above the in-game buttons.
+  - **Roll Mode : right half of see-through region** and a little above the in-game buttons.
+
+> **❗ IMPORTANT NOTE ❗**<br />
+> - **[ ! ] Without any actual game file alterations ( *`configs.pck`* ),<br />it is not recommended to use EPW Recaster<br />to look for stats on weapons that have unique (*long descriptive*) stats**,<br />unless it's (*one of those*) unique stats being targeted in a roll.
+> - *In other words*, avoid looking for stats on weapons having<br />`Purify Spell`, `God of Frenzy`, `Square Formation`, `Soul Shatter`, `Spirit Blackhole`, ...<br />as a possible stat in order not to miss a stat needing an in-game scroll<br />(*unless the previously mentioned stats are being specifically targeted*).
 
 ___
 
@@ -164,8 +166,8 @@ ___
 
 ![Condition Entry](https://i.snipboard.io/BbaM3T.jpg)
 
-> **[ IMPORTANT ]**<br />
-> **Add as many conditions as possible in order not to miss out on a good roll.**
+> **❗ IMPORTANT NOTE ❗**<br />
+> **Always put some thought in which rolled stats would be preferred and add all-encompassing conditions for those<br />in order not to miss out on any good rolls.**
 
 - In order to enlist a roll condition:
   - Select a preferred amount and preferred stat to be found.
@@ -262,8 +264,8 @@ ___
 > **Question: "Why did the tool skip a very exotic roll ?**"
 
 ➥ **Answer**:
-- **Most probably because it did not meet any requirements set in the condition list.**<br />Always think well which rolled stats would be preferred and add all-encompassing conditions for it. Better to have one condition to be met more than one less.
-- Another probability could be if the roll contained a unique stat with a long description.<br />Check [ [ TODO ](#TODO) ] for more information.
+- **It did not meet any requirements set in the condition list.**<br />Always put some thought in which rolled stats would be preferred and add all-encompassing conditions for those.
+- Another probability could be if the roll contained a unique stat with a long description.<br />Check [ [ 1.1. See-through Region ](#1-1-see-through-region) ] for more information.
 - **Inform me with detailed information ( *and if possible steps to reproduce* ) if you think any of the above aren't the reason.<br />I would consider that a priority fix.**
 
 </details>
