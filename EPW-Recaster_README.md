@@ -244,13 +244,13 @@ ___
 > **Symptoms**: "_No valid roll information detected (yet)._" | "_... doesn't seem necessary to roll any further ... halted ..._" | ...
 
 ➥ **Answer**:
-- **In general, each capture/roll produces a logged text and image file that may be worth checking in case it would be an OCR related issue.**<br />Check [ 2.2. Log Folder ](https://github.com/KimDebroye/EPW-Recaster#2-2-log-folder) for more information.
+- **In general, each capture/roll produces a logged text and image file that may be worth checking in case it would be an OCR related issue.**<br />Check [ 2.2. Log Folder ](#2-2-log-folder) for more information.
 - **It doesn't click/reproduce a roll.**
   - **It's most certainly an admin privilege issue.**<br />Check [ [ Setup > Developer Note ](#setup) ] for instructions on how to enable administrative privileges.
     - **[ Developer Note ]** This fixed it for most I've been chatting with that had this issue.<br />If many encounter this, I may include code in an update<br />to elevate administrative privileges programmatically ( _hoping it would skip the manual fix_ ).
   - **Additionally, make sure the capture region has been sized/positioned correctly.**
 - **It does click/reproduce a roll but still stops a batch roll after a short while.**
-  - **May as well be a timing issue.** On older or _trying-to-avoid-what-fries-and-chips-are-made-of-word_ computers,<br />maybe best to also increase timings ( _add about 500~xxxx milliseconds to timings of choice_ ).<br />Check [ [ 2-4. Preview | Roll Mode ](#2.4-preview-roll-mode) ] for the config file location.
+  - **May as well be a timing issue.** On older or _trying-to-avoid-what-fries-and-chips-are-made-of-word_ computers,<br />maybe best to also increase timings ( _add about 500~xxxx milliseconds to timings of choice_ ).<br />Check [ [ 2-4. Preview | Roll Mode ](#2.4-preview--roll-mode) ] for the config file location.
   - Also, keep in mind that ( _at time of writing_ ) older re-rollable gears ( _Primal / Nirvana / ..._ )<br />don't produce in-game roll results as fast as R8 ones,<br />so also for this purpose it would be best to increase timings.<br />If needed, change the `Await Accept/Reject Action` timing to around 3750 milliseconds.
 - **Inform me when the above does not provide a solution to the issue.**
 
