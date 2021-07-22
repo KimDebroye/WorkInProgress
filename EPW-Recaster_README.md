@@ -244,7 +244,7 @@ ___
 > **Symptoms**: "_No valid roll information detected (yet)._" | "_... doesn't seem necessary to roll any further ... halted ..._" | ...
 
 ➥ **Answer**:
-- **In general, each capture/roll produces a logged text and image file that may be worth checking in case it would be an OCR related issue.**<br />Check [ 2.2. Log Folder ](#2-2-log-folder) for more information.
+- **In general, each capture/roll produces a logged text and image file that may be worth checking<br />in case it would be an OCR related issue.**<br />Check [ 2.2. Log Folder ](#2-2-log-folder) for more information.
 - **It doesn't click/reproduce a roll.**
   - **It's most certainly an admin privilege issue.**<br />Check [ [ Setup > Developer Note ](#setup) ] for instructions on how to enable administrative privileges.
     - **[ Developer Note ]** This fixed it for most I've been chatting with that had this issue.<br />If many encounter this, I may include code in an update<br />to elevate administrative privileges programmatically ( _hoping it would skip the manual fix_ ).
