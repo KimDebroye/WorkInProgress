@@ -1,6 +1,8 @@
 # EPW Recaster
 
-![Overview](https://i.snipboard.io/i0SQku.jpg)
+| Overview | Quick Links |
+| :---: | :--- |
+| ![Overview](https://i.snipboard.io/i0SQku.jpg) | [Setup](#setup) |
 
 ## Download
 **[ [ Latest & Older Versions ](https://github.com/KimDebroye/EPW-Recaster/releases) ]**
