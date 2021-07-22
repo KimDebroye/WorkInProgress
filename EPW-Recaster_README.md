@@ -1,8 +1,6 @@
 # EPW Recaster
 
-| Overview | Quick Links |
-| :---: | :--- |
-| ![Overview](https://i.snipboard.io/i0SQku.jpg) | [Setup](#setup) |
+![Overview](https://i.snipboard.io/i0SQku.jpg)
 
 ## Download
 **[ [ Latest & Older Versions ](https://github.com/KimDebroye/EPW-Recaster/releases) ]**
@@ -105,16 +103,15 @@ ___
 ![Condition List](https://i.snipboard.io/uOwQhv.jpg)
 
 - A list containing preferred roll conditions.
-  - > **[ IMPORTANT ]**<br />`Add as many all-encompassing conditions as possible in order not to miss out on a good roll.`
 - **Used in order to programmatically stop rolling when one of the listed required conditions is met**.
 - The condition list can have both _fixed amount stats_ and _combo stats_ entries mixed.
 - The order of entries can be changed by dragging an entry over to another location in the condition list.
 
 ___
 
-> #### 1-4-1. Fixed Amount Stats
+#### 1-4-1. Fixed Amount Stats
 
-![Fixed Amount Stats](https://i.snipboard.io/o0CFkM.jpg)
+![Fixed Amount Stats](https://i.snipboard.io/6YN19T.jpg)
 
 - > **Although `REQUIRING A FIXED AMOUNT` of a preferred single or grouped stat,<br />rolled results `CAN HAVE ANY OTHER STAT`**.
 - **Will accept a roll if**
@@ -133,9 +130,9 @@ ___
 
 ___
 
-> #### 1-4-2. Combo Stats
+#### 1-4-2. Combo Stats
 
-![Combo Stats](https://i.snipboard.io/lsCBnI.jpg)
+![Combo Stats](https://i.snipboard.io/2W7pMU.jpg)
 
 - > **Although `NOT REQUIRING A FIXED AMOUNT` of a preferred single or grouped stat,<br />rolled results `CAN NOT HAVE ANY OTHER STAT`**.
 - **Will accept a roll if**
@@ -153,17 +150,23 @@ ___
 
 ___
 
-> #### 1-4-3. Comparative Examples
+#### 1-4-3. Comparative Examples
 
 | Condition | Would Accept | Would Reject |
 | :--- | :--- | :--- |
-| **[ `fixed amount \| any other stat allowed` ]**<br />• **`min. 2 x Channelling`** | ✅<br />*<sub><sup>• Channelling -3%<br/>• Channelling -2%<br/>• Channelling -3%<br />• Channelling -2%</sup></sub>*<hr />✅<br />*<sub><sup>• Channelling -3%<br />• Magic +9<br />• Channelling -2%<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />✅<br />*<sub><sup>• Channelling -3%<br/>• Channelling -2%<br/>• Channelling -3%<br />• Magic +9</sup></sub>* | ❌<br />*<sub><sup>• Channelling -3%<br />• Magic +9<br/>• Magic +10<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />❌<br />*<sub><sup>• Reduce Physical Damage Taken +2%<br />• Reduce Physical Damage Taken +1%<br/>• Reduce Physical Damage Taken +2%<br />• Reduce Physical Damage Taken +2%</sup></sub>* |
+| ![Fixed Amount Stats](https://i.snipboard.io/6YN19T.jpg) | ✅<br />*<sub><sup>• Channelling -3%<br/>• Channelling -2%<br/>• Channelling -3%<br />• Channelling -2%</sup></sub>*<hr />✅<br />*<sub><sup>• Channelling -3%<br />• Magic +9<br />• Channelling -2%<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />✅<br />*<sub><sup>• Channelling -3%<br/>• Channelling -2%<br/>• Channelling -3%<br />• Magic +9</sup></sub>* | ❌<br />*<sub><sup>• Channelling -3%<br />• Magic +9<br/>• Magic +10<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />❌<br />*<sub><sup>• Reduce Physical Damage Taken +2%<br />• Reduce Physical Damage Taken +1%<br/>• Reduce Physical Damage Taken +2%<br />• Reduce Physical Damage Taken +2%</sup></sub>* |
 | | | |
-| **[ `any combination \| no other stat allowed` ]**<br />• **`min. 1 x Channelling`**<br />• **`min. 1 x Reduce Physical Damage Taken`** | ✅<br />*<sub><sup>• Channelling -3%<br />• Reduce Physical Damage Taken +1%<br />• Channelling -2%<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />✅<br />*<sub><sup>• Channelling -3%<br />• Channelling -2%<br />• Channelling -2%<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />✅<br />*<sub><sup>• Reduce Physical Damage Taken +2%<br />• Reduce Physical Damage Taken +1%<br />• Reduce Physical Damage Taken +2%<br />• Channelling -3%</sup></sub>* | ❌<br />*<sub><sup>• Channelling -3%<br />• Channelling -2%<br/>• Channelling -3%<br />• Channelling -3%</sup></sub>*<hr />❌<br />*<sub><sup>• Channelling -3%<br />• Channelling -3%<br />• Magic +9<br/>• Channelling -2%</sup></sub>* |
+| ![Combo Stats](https://i.snipboard.io/2W7pMU.jpg) | ✅<br />*<sub><sup>• Channelling -3%<br />• Reduce Physical Damage Taken +1%<br />• Channelling -2%<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />✅<br />*<sub><sup>• Channelling -3%<br />• Channelling -2%<br />• Channelling -2%<br />• Reduce Physical Damage Taken +2%</sup></sub>*<hr />✅<br />*<sub><sup>• Reduce Physical Damage Taken +2%<br />• Reduce Physical Damage Taken +1%<br />• Reduce Physical Damage Taken +2%<br />• Channelling -3%</sup></sub>* | ❌<br />*<sub><sup>• Channelling -3%<br />• Channelling -2%<br/>• Channelling -3%<br />• Channelling -3%</sup></sub>*<hr />❌<br />*<sub><sup>• Channelling -3%<br />• Channelling -3%<br />• Magic +9<br/>• Channelling -2%</sup></sub>* |
 
 ___
 
 #### 1-5. Condition Entry (Entries)
+
+![Condition Entry](https://i.snipboard.io/BbaM3T.jpg)
+
+> **[ IMPORTANT ]**<br />
+> **Add as many conditions as possible in order not to miss out on a good roll.**
+
 - In order to enlist a roll condition:
   - Select a preferred amount and preferred stat to be found.
     - (Optional) Select up to 3 additional preferred amounts and preferred stats to be found/combined.
@@ -171,7 +174,7 @@ ___
   - Click the green `+` sign.
 - Any previously added condition can be removed<br />by pressing the red `x` in the condition list.
 
-> Additional Notes
+> **Additional Notes**
 >
 >- **Ignore white stats, only blue stats are to be taken into account**.<br />
 >  ( *f.e.* `4 x Phys. Res.` *= max, ignoring the fifth white Phys. Res. stat on a gear* ) 
@@ -186,6 +189,9 @@ ___
 ___
 
 #### 2-1. Form (Un)Chainer
+
+![Form (Un)Chainer](https://i.snipboard.io/ANlV8a.jpg)
+
 - **A toggle button attaching/detaching the info form to/from the main form.**
 	- **Chained Mode** ( *attached forms mode | default at first launch* ) :
 		- Only the main form will be movable and resizable.
@@ -197,6 +203,9 @@ ___
 ___
 
 #### 2-2. Log Folder
+
+![Form (Un)Chainer](https://i.snipboard.io/NmaxXe.jpg)
+
 - **Clicking this button opens the log folder.**
   - For each roll, a resulting text and image file is logged.
   - **[ ! ] Occasionally empty/delete this folder<br />in order to free up storage space**.
@@ -204,11 +213,17 @@ ___
 ___
 
 #### 2-3. OCR Result Info
+
+![OCR Result Info](https://i.snipboard.io/tL4qcp.jpg)
+
 - Displays text captured together with some additional info when previewing or rolling.
 
 ___
 
 #### 2-4. Preview | Roll Mode
+
+![Preview | Roll Mode](https://i.snipboard.io/69rtB2.jpg)
+
 - **Preview Mode** ( *default at first launch* ) :
 	- Once started, will perform one single text capture.
 	- No rolls will be performed in-game.
@@ -223,24 +238,44 @@ ___
 
 ## FAQ
 
+**<details><summary>` [ (Show|Hide Question|Answer ) "The tool doesn't seem to work for me ... what do I do, doc ?" ] `</summary>**
+
 > **Question: "The tool doesn't seem to work for me ... what do I do, doc ?**"<br />
-> **Symptoms**: "_No valid roll information detected (yet)._" | "_... doesn't seem necessary to roll any further ... halted ..._" | "_Threw my pc out of the window..._" | ...
+> **Symptoms**: "_No valid roll information detected (yet)._" | "_... doesn't seem necessary to roll any further ... halted ..._" | ...
 
 ➥ **Answer**:
 - **In general, each capture/roll produces a logged text and image file that may be worth checking in case it would be an OCR related issue.**<br />Check [ 2.2. Log Folder ](https://github.com/KimDebroye/EPW-Recaster#2-2-log-folder) for more information.
 - **It doesn't click/reproduce a roll.**
-  - **It's most certainly an admin privilege issue.**<br />Check [ Setup > Developer Note ](https://github.com/KimDebroye/EPW-Recaster#setup) for instructions on how to enable administrative privileges.
+  - **It's most certainly an admin privilege issue.**<br />Check [ [ Setup > Developer Note ](#setup) ] for instructions on how to enable administrative privileges.
     - **[ Developer Note ]** This fixed it for most I've been chatting with that had this issue.<br />If many encounter this, I may include code in an update<br />to elevate administrative privileges programmatically ( _hoping it would skip the manual fix_ ).
   - **Additionally, make sure the capture region has been sized/positioned correctly.**
 - **It does click/reproduce a roll but still stops a batch roll after a short while.**
-  - **May as well be a timing issue.** On older or _trying-to-avoid-what-fries-and-chips-are-made-of-word_ computers,<br />maybe best to also increase timings ( _add about 500~xxxx milliseconds to timings of choice_ ).<br />Check [ 2-4. Preview | Roll Mode ](https://github.com/KimDebroye/EPW-Recaster#setup) for the config file location.
+  - **May as well be a timing issue.** On older or _trying-to-avoid-what-fries-and-chips-are-made-of-word_ computers,<br />maybe best to also increase timings ( _add about 500~xxxx milliseconds to timings of choice_ ).<br />Check [ [ 2-4. Preview | Roll Mode ](#2.4-preview-roll-mode) ] for the config file location.
   - Also, keep in mind that ( _at time of writing_ ) older re-rollable gears ( _Primal / Nirvana / ..._ )<br />don't produce in-game roll results as fast as R8 ones,<br />so also for this purpose it would be best to increase timings.<br />If needed, change the `Await Accept/Reject Action` timing to around 3750 milliseconds.
 - **Inform me when the above does not provide a solution to the issue.**
 
-> **Question: "Am I able to contact you in any way ?**"
+</details>
+
+
+**<details><summary>` [ (Show|Hide Question|Answer ) "Why did the tool skip a very exotic roll ?" ] `</summary>**
+
+> **Question: "Why did the tool skip a very exotic roll ?**"
 
 ➥ **Answer**:
-- **Sure.** Check below for ways to get in touch with me.
+- **Most probably because it did not meet any requirements set in the condition list.**<br />Always think well which rolled stats would be preferred and add all-encompassing conditions for it. Better to have one condition to be met more than one less.
+- Another probability could be if the roll contained a unique stat with a long description.<br />Check [ [ TODO ](#TODO) ] for more information.
+- **Inform me with detailed information ( *and if possible steps to reproduce* ) if you think any of the above aren't the reason.<br />I would consider that a priority fix.**
+
+</details>
+
+**<details><summary>` [ (Show|Hide Question|Answer ) "Can I to contact you in any way / provide any feedback ?" ] `</summary>**
+
+> **Question: "Can I to contact you in any way / provide any feedback ?**"
+
+➥ **Answer**:
+- **Sure.** Check below for ways to get in touch with me.<br />Feedback is always welcome and greatly appreciated.
+
+</details>
 
 ___
 
